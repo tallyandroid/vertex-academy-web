@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'CHANTELLI ANTIQUA';
+    src: url(fonts/Chantelli_Antiqua-webfont.woff) format('woff');
+    src: url(fonts/Chantelli_Antiqua-webfont.ttf) format('truetype');
+}
+
+h1 {
+    font-size: 21px;
+    font-family: 'CHANTELLI ANTIQUA';
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
