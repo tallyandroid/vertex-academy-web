@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+}
+
+p {
+    color: orange;
+}
+
+.green-text {
+    color: green;
+  
+}
+
+.bold-text {
+    font-weight: bold;
+}
