@@ -1,0 +1,11 @@
+div {
+    background-color: orangered;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+}
+
+.blue-block {
+    background-color: blue;
+}
