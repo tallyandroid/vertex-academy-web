@@ -1,1 +1,8 @@
-
+.block {
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/27/22/18/meadow-5229169_960_720.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
