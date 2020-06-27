@@ -1,0 +1,7 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border: 10px solid black;
+    border-radius: 5%;
+}
