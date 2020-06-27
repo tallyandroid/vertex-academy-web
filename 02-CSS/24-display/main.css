@@ -1,0 +1,18 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.a {
+    background-color: orange;
+}
+
+.b {
+    background-color: green;
+}
+
+.c {
+    background-color: blue;
+}
+
