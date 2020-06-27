@@ -1,0 +1,12 @@
+div {
+    height: 500px;
+    width: 500px;
+}
+
+.A {
+    background-color: orange;
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/20/03/50/gears-5193383_960_720.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

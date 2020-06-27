@@ -1,0 +1,22 @@
+div {
+    height: 100px;
+    width: 200px;
+    position: relative;
+}
+
+.a {
+    background-color: orange;
+    z-index: 3;
+}
+
+.b {
+    background-color: green;
+    z-index: 3;
+}
+
+.c {
+    background-color: blue;
+    left: 70px;
+    bottom: 150px;
+    z-index: 5;
+}

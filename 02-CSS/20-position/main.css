@@ -1,0 +1,19 @@
+div {
+    height: 100px;
+    width: 100px;
+}
+
+.a {
+    background-color: orange;
+}
+
+.b {
+    background-color: green;
+    position: fixed;
+    left: 70px;
+    top: 40px;
+}
+
+.c {
+    background-color: blue;
+}
