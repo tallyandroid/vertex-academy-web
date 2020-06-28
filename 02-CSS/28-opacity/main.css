@@ -12,5 +12,6 @@ div {
     position: absolute;
     top: 0;
     left: 300px;
-    background: rbg(0,0,255);
+    background: rgb(0,0,255);
+    opacity: 0.5;
 }
