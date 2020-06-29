@@ -1,0 +1,12 @@
+p {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+input[type = text] {
+    border: 5px solid green;
+}
+
+a[href ^= https] {
+    background: #ffff00;
+}
