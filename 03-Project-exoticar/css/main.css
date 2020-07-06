@@ -15,7 +15,11 @@ body {
 
 .page-header {
     height: 66px;
+    width: 100%;
     background: rgba(0,0,0,0.8);
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .page-header .logo {
@@ -46,6 +50,8 @@ body {
     height: 612px;
     background: url(../img/banner.png);
     background-size: cover;
+    padding-top: 230px;
+    box-sizing: border-box;
 }
 
 .banner-block {
@@ -53,11 +59,18 @@ body {
     margin-right: auto;
     font-size: 60px;
     font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 .subtitle {
     font-size: 21px;
     font-weight: 300;
+    margin: 25px 0;
+
 }
 
 .learn-more {
@@ -65,5 +78,10 @@ body {
     padding: 20px 30px;
     color: inherit;
     text-transform: uppercase;
+    background: #ca0500;
     font-size: 14px;
+    text-decoration: none;
+    width: 166px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
