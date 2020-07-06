@@ -55,3 +55,15 @@ body {
     font-weight: bold;
 }
 
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.learn-more {
+    display: block;
+    padding: 20px 30px;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 14px;
+}
