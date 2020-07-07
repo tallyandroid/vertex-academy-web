@@ -85,3 +85,12 @@ h1 {
     box-sizing: border-box;
     margin: 0 auto;
 }
+
+/* ==================ARTICLES============= */
+
+.articles {
+    background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 50%, #000000 50%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ffffff 0%,#ffffff 50%,#000000 50%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
