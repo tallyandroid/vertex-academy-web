@@ -1,0 +1,15 @@
+.block {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border: 1px solid red;
+    font-size: 30px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 200px;
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+}
