@@ -1,0 +1,54 @@
+@font-face {
+    src: url('fonts/Roboto-Regular.woff') format('woff'),
+         url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-family: Roboto;
+}
+
+@font-face {
+    src: url('fonts/ProximaNova-Light.woff') format('woff'),
+         url('fonts/ProximaNova-Light.ttf') format('truetype');
+    font-family: Proxima;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url('fonts/ProximaNova-Regular.woff') format('woff'),
+         url('fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-family: Proxima;
+   
+}
+body {
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+/* =======================HEADER=================== */
+.page-header {
+    height: 67px;
+    width: 100%;
+    background-color: #f7c61d;
+}
+
+.wrapper {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.page-header .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page-header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header nav a {
+    font-family: Proxima;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 35px;
+}
