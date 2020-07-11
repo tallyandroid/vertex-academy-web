@@ -53,6 +53,23 @@ nav ul {
     text-decoration: none;
     padding: 0 35px;
 }
+/* ===================Main================= */
+.main {
+    display: flex;
+}
+
+main {
+     width: 77%;
+}
+
+.right-sidebar {
+    width: 23%;
+}
+
+
+
+
+
 /* ===================Footer============== */
 .page-footer {
     margin: 100px 0;
