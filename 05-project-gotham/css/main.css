@@ -23,7 +23,7 @@ body {
 }
 
 /* =======================HEADER=================== */
-.page-header {
+.page-header, .page-footer {
     height: 67px;
     width: 100%;
     background-color: #f7c61d;
@@ -35,12 +35,13 @@ body {
     margin: 0 auto;
 }
 
-.page-header .wrapper {
+.page-header .wrapper, .page-footer .wrapper {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.page-header nav ul {
+
+nav ul {
     display: flex;
     justify-content: space-between;
 }
@@ -51,4 +52,45 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 35px;
+}
+/* ===================Footer============== */
+.page-footer {
+    margin: 100px 0;
+}
+
+.page-footer>.wrapper>* {
+    width: 33.33%;
+}
+
+.copy {
+    font-family: Proxima;
+    font-weight: 300;
+    font-size: 13px;
+    color: #a78613;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socials a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 50%;
+    color: #f7c61d;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 18px;
 }
