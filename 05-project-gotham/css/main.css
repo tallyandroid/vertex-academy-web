@@ -17,6 +17,14 @@
     font-family: Proxima;
    
 }
+
+@font-face {
+    src: url('fonts/ProximaNova-Bold.woff') format('woff'),
+         url('fonts/ProximaNova-Bold.ttf') format('truetype');
+    font-family: Proxima;
+    font-weight: bold;
+}
+
 body {
     font-size: 16px;
     font-family: Roboto;
@@ -66,7 +74,29 @@ main {
     width: 23%;
 }
 
+article {
+    display: flex;
+}
 
+h2 {
+    font-family: Proxima;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.article-left {
+    width: 30%;
+}
+
+.article-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
