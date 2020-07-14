@@ -138,6 +138,12 @@ img {
     font-size: 16px;
     font-family: Roboto;
 }
+
+.views::before {
+    content: '\f06e';
+    font-family: 'Font Awesome 5 Free';
+    font-size: 16px;
+}
 /* ===================Footer============== */
 .page-footer {
     margin: 100px 0;
