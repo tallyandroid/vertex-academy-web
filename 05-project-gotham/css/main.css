@@ -83,12 +83,14 @@ main {
 
 article {
     display: flex;
+    margin-bottom: 50px;
 }
 
 h2 {
     font-family: Proxima, Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 24px;
+    margin: 40px 0 15px;
 }
 
 article h3 {
@@ -114,6 +116,7 @@ img {
     display: flex;
     flex-direction: column;
     padding-left: 25px;
+    justify-content: space-between;
 }
 
 .meta {
@@ -151,6 +154,7 @@ img {
 
 .views::after {
     content: "|";
+    margin: 0 10px;
 }
 
 .comments {
@@ -161,6 +165,7 @@ img {
     content: '\f06e';
     font-family: 'Font Awesome 5 Free';
     font-size: 16px;
+    margin-right: 10px;
 }
 
 .comments::before {
