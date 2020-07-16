@@ -147,6 +147,11 @@ img {
     font-family: Roboto;
 }
 
+.description::after {
+    content: ">";
+    color: #e3b002;
+}
+
 .additional {
    color: #999;
    font-family: Roboto;
@@ -172,6 +177,23 @@ img {
     content: '\f075';
     color: #999;
 }
+
+.more{
+    width: 170px;
+    height: 42px;
+    background: transparent;
+    color: #000;
+    font-size: 12px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    border: 1px solid #e3b002;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
 /* ===================Footer============== */
 .page-footer {
     margin: 100px 0;
