@@ -69,7 +69,7 @@ nav ul {
     padding: 0 35px;
 }
 /* ===================Main================= */
-.main {
+.main>.wrapper {
     display: flex;
 }
 
@@ -194,7 +194,12 @@ img {
     display: block;
 }
 
-/* ===================Footer============== */
+/* ===================Aside====================== */
+
+aside.right-sidebar {
+    padding-top: 78px;
+}
+/* ===================Footer==================== */
 .page-footer {
     margin: 100px 0;
 }
