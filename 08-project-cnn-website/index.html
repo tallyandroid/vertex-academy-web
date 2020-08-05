@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CNN</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
         <div class="container">
             <div class="header-left">
                 <div class="page-logo">
-                    <img src="img/logo_cnn.jpeg" alt="Page Logo">
+                    <a href="/"><img src="img/logo_cnn.jpeg" alt="Page Logo"></a>
                 </div>
                 <nav class="page-nav">
                     <ul>
@@ -32,16 +33,17 @@
             </div>
             <div class="header-right">
                 <div class="international-edition">
-
+                    <input type="chechbox" id="international-switcher" hidden>
+                    <label for="international-switcher">International Edition +</label>
                 </div>
                 <div class="page-search">
                     <input type="chechbox" id="search-switcher" hidden>
-                    <input type="search" name="">
-                    <label for="search-switcher">s</label>
+                    <input type="search" class="page-search-field">
+                    <label for="search-switcher" class="search-switcher-label"><i class="fas fa-search"></i></label>
                 </div>
                 <div class="header-expanded-menu">
                     <input type="checkbox" id="expanded-switcher" hidden>
-                    <label for="expanded-switcher">=</label>
+                    <label for="expanded-switcher"><i class="fas fa-bars"></i></label>
                 </div>
             </div>
         </div>
