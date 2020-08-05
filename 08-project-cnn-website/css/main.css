@@ -1,4 +1,72 @@
+
+
+.container {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* =============HEADER==========
+================================= */
+
+.page-header {
+    height: 50px;
+    width: 100%;
+    background-color: #0c0c0c;
+    color: rgb(191, 191, 191)
+}
+
+.page-header a {
+    color: inherit;
+}
+
+.header-left {
+    float: left;
+    display: flex;
+    height: 100%;
+}
+
+.header-right {
+    float: right;
+    display: flex;
+    height: 100%;
+}
+
+.page-nav ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.page-nav ul li {
+    margin: 0 0 0 5px;
+    text-transform: capitalize;
+}
+
+.page-nav ul li::after {
+    content: "|";
+    margin-left: 5px;
+}
+
+.page-nav ul li:last-child::after{
+    content: "";
+}
+
+.page-nav a:hover {
+    color: #fff;
+}
+
+.page-logo {
+    position: relative;
+    width: 60px;
+}
+
 .page-logo img {
-    width: 75px;
-    height: 75px;
+    width: 100%;
+    position: absolute;
 }
