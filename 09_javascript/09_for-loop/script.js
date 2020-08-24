@@ -5,3 +5,4 @@ for(let i = 0; i <=3; i += 1) {
 let name = "christian"
 
 console.log("I love " + name)
+console.log("Baby I'm ready")
